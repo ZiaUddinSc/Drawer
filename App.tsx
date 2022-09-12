@@ -3,8 +3,8 @@ import { StyleSheet, View, Text } from "react-native";
 import { NavigationContainer } from "@react-navigation/native";
 import { createStackNavigator } from "@react-navigation/stack";
 import MainDrawerNavigation from "./AppDrawerNavigator";
-import Login from "./screens/Login";
-import SplashScreen from "./screens/SplashScreen";
+import Login from "./src/screens/Login";
+import SplashScreen from "./src/screens/SplashScreen";
 
 type RootStackParamList = {
   Login: undefined;

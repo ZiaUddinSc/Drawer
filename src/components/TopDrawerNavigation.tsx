@@ -12,7 +12,7 @@ const TopDrawerNavigation = () => {
     <TouchableHighlight style={styles.backButton} underlayColor="#f0ddcc" onPress={() => {
       navigation.openDrawer()
     }}>
-      <DrawerMenuIcon color="#333" size={20} />
+      <DrawerMenuIcon color="#333" size={30} />
     </TouchableHighlight>
   </View>
 }
@@ -26,7 +26,8 @@ const styles = StyleSheet.create({
     width: 40,
     height: 40,
     justifyContent: "center",
-    alignItems: "center"
+    alignItems: "center",
+    margin:10
   }
 })
 

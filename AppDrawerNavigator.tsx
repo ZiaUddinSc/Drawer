@@ -1,10 +1,10 @@
 import React from "react";
 import "react-native-gesture-handler";
-import ProfileScreen from "./screens/Profile";
+import ProfileScreen from "./src/screens/Profile";
 import { createDrawerNavigator } from "@react-navigation/drawer";
-import DrawerContent from "./screens/DrawerContent";
-import HomeScreen from "./screens/Home";
-import SettingScreen from "./screens/Setting";
+import DrawerContent from "./src/screens/DrawerContent";
+import HomeScreen from "./src/screens/Home";
+import SettingScreen from "./src/screens/Setting";
 
 export type RootStackParams = {
   ExploreStack: undefined;
