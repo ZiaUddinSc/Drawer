@@ -1,0 +1,1 @@
+export type MainBottomTabParamList = {Home: undefined;Profile: undefined;};

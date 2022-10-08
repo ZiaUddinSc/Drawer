@@ -5,6 +5,7 @@ import { createStackNavigator } from "@react-navigation/stack";
 import MainDrawerNavigation from "./AppDrawerNavigator";
 import Login from "./src/screens/Login";
 import SplashScreen from "./src/screens/SplashScreen";
+import TabNavigator from "./TabNavigator";
 
 type RootStackParamList = {
   Login: undefined;
@@ -21,8 +22,8 @@ const Root = () => {
         <RootStack.Screen name="Login" component={Login} />
         <RootStack.Screen
           screenOptions={{ headerShown: false }}
-          name="MainDrawerNavigation"
-          component={MainDrawerNavigation}
+          name="TabNavigator"
+          component={TabNavigator}
         />
       </RootStack.Navigator>
     </NavigationContainer>

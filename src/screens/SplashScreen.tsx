@@ -33,7 +33,7 @@ export default function SplashScreen({ navigation }) {
   const authUser = async () => {
     try {
       AsyncStorage.getItem("userData").then((value) =>
-        navigation.replace(value === null ? "Login" : "MainDrawerNavigation")
+        navigation.replace(value === null ? "Login" : "TabNavigator")
       );
     } catch (error) {
       console.log(error);
